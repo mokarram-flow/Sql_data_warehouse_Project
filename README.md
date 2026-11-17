@@ -6,6 +6,7 @@ This project demonstrates an end-to-end data warehousing and analytics solution�
 ---
 
 ## 🏗️ Data Architecture
+![Data Architecture](docs/data_architecture.png)
 
 The data architecture for this project follows the **Medallion Architecture** with **Bronze**, **Silver**, and **Gold** layers:
 
