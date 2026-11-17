@@ -18,16 +18,16 @@ GO
 -- Drop the 'DataWarehouse' database if it already exists
 IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'Datawarehouse')
 BEGIN
-    ALTER DATABASE DataWarehouse SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
-    DROP DATABASE DataWarehouse;
+    ALTER DATABASE Datawarehouse SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+    DROP DATABASE Datawarehouse;
 END;
 GO
 
 -- Create the 'DataWarehouse' database
-CREATE DATABASE DataWarehouse;
+CREATE DATABASE Datawarehouse;
 GO
 
-USE DataWarehouse;
+USE Datawarehouse;
 GO
 
 -- Create Medallion Architecture Schemas
